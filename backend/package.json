@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "nodemon --exec babel-node src/index.js"
   },
@@ -19,5 +22,6 @@
   "devDependencies": {
     "babel-cli": "^6.26.0"
   },
-  "type": "module"
+  "type": "module",
+  
 }
