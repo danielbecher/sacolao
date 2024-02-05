@@ -1,6 +1,6 @@
 import express from 'express'
 import bodyParser from 'body-parser'
-import productsController from './controllers/products.js'
+import productsController from './src/controllers/products.js'
 
 const app = express()
 const port = process.env.PORT || 3000
